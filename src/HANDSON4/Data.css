@@ -1,0 +1,72 @@
+
+body{
+    background: linear-gradient(aqua ,pink ,aqua);
+}
+table{
+    width: 90%;
+    height: auto;
+    border-collapse: collapse;
+    margin-left: 50px;
+    margin-top: 10px;
+   
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+ 
+.details
+{
+    display: flex;
+    gap: 60%;
+    margin-top: 50px;
+}  
+.nav{
+    margin: 30px;
+    background-color: rgb(11, 11, 154);
+    display: flex;
+     gap: 40%;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-style: italic;
+   
+    
+  
+}
+a{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.but{
+    margin-top: 30px;
+    
+}
+.but:hover{
+    background-color: blue;
+}
+
+@media screen and (min-width:300px) and (max-width:600px) {
+
+    .nav{
+       
+        background-color:aquamarine;
+        display:grid;
+        height: auto;
+        gap: 20px;
+
+    }
+    .details{
+        display: flex;
+
+    }
+    .but{
+        margin-top: 40px;
+    }
+    .details{
+        align-content: center;
+    }
+}
